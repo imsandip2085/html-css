@@ -1,0 +1,36 @@
+body{
+    background-color: #d7e7f4;
+}
+.container{
+   display: flex;
+   justify-content: space-between;
+}
+.wrapper{
+    width: 954px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: white;
+}
+a{
+    padding-left: 100px;
+    color: #007BAF;
+}
+input[type = text]{
+ padding-top: 10px;
+ padding-bottom: 5px;  
+}
+.search{
+    padding-top: 22px;
+}
+.img1{
+    padding-left: 5px;   
+}
+.key{
+    padding-right: 25px;
+    padding-top: 22px ;
+}
+hr{
+    height: 4px;
+    background: black;
+    margin-top: 200px;
+}
