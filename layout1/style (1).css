@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+}
+.list{
+    padding-left: 100px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+  }
+li a {
+    display: block;
+    color:#ccccb3;
+    text-align: center;
+    padding: 1.8vw 1.6vw;
+    text-decoration: none;
+  }
+.h1{
+    font-family: sans-serif;
+}
+.span1{
+    font-weight: lighter;
+    font-size: 25px;
+    color: gray;
+}
+  .container{
+      background-color:white;
+      /* width: 1050px; */
+      /*height: 100vh; */
+      margin: 0 50px 0 50px;
+      padding: 0;
+  }
+  .h1{
+      font-weight: lighter;
+      font-size: 3vw;
+  }
+  .container-1{
+      display: flex;
+      justify-content:space-between;
+      flex-wrap: wrap;
+  }
+  .box-1{
+    flex:0;
+    padding: 8px 16px; 
+  }
+  .box-2{
+   flex: 0;
+}
+.box-3{
+  flex: 0; 
+}
+.emptyBox{
+  width: 20vw;
+  height: 10vw;
+ background-color: lightgray;
+ position: relative;
+}
+.insideBox{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    margin:0px;
+   font-weight: bolder;
+   font-size: 30px;
+   color:gray;  
+}
+.foot{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+/* @media only screen and (max-width: 1200)
+{
+    .container-1{
+        display:flex;
+      
+    }
+    .emptyBox{
+        width: 30vw;
+        height: 15vw;
+       background-color: lightgray;
+       position: relative;
+      }
+
+} */
+@media only screen and (max-width : 768px ){
+    .list{
+        padding-left: 10px;
+    }
+    .container-1{
+       display: flex ; 
+       justify-content: center;    
+    }
+    .emptyBox{
+        width: 60vw;
+        height: 30vw;
+       background-color: lightgray;
+       position: relative;
+      }
+     .span1{
+         font-size: 2vw;
+     }
+     .h1{
+        font-weight: lighter;
+        font-size: 3vw;
+    }
+}
