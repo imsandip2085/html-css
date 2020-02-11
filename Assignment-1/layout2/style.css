@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+}
+.list{
+    padding-left: 100px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+    overflow: hidden;
+    background-color: #333;
+  }
+li a {
+    display: block;
+    color:#ccccb3;
+    text-align: center;
+    padding: 1.8vw 1.6vw;
+    text-decoration: none;
+}
+  .sampleHeading{
+     margin: 3vw 9vw 0vw 9vw;
+     padding: 0px;
+     border-radius: 6px;
+   } 
+  .container{
+    width: 100%;
+    background-color:lightgray;
+    border-radius: 4px;
+    
+  }
+  .heading{
+      font-family: sans-serif;
+      font-size: 30px;
+      padding-top: 3vw;
+      padding-left: 4vw;
+      /* padding-bottom: 0vw; */
+      margin-block-start: 0px;
+      margin-block-end: 0px;
+  }
+  .headPara{
+    font-family: sans-serif;
+    /* font-size: 1.2vw; */
+    padding-top: 0px;
+    padding-left: 4vw;
+    padding-right: 8vw;
+  }
+  .button1{
+      background-color: #227dc7;
+      color: white;
+      border: none;
+      width: 90px;
+      height: 25px;
+      border-radius: 3px;
+  }
+  .headingButton{
+      padding-left: 4vw;
+      padding-bottom: 3vw;
+  }
+  hr{
+      margin-top: 30px;
+      margin-bottom: 30px;
+      color: slategray;
+  }
+  h{
+    font-family: sans-serif; 
+    font-size: 20px; 
+  }
+  .container-1{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin-top: 10px; 
+}
+.box-1{
+  flex:0;
+  border-style: groove;
+  border-color: lightgray;
+  
+}
+.box-2{
+ flex: 0;
+ border-style: groove;
+ border-color: lightgray;
+}
+.box-3{
+flex: 0;
+border-style: groove;
+border-color: lightgray; 
+}
+.box-4{
+    flex: 0; border-style: groove;
+    border-color: lightgray;
+    position: relative;
+
+}
+.emptyBox{
+ width: 20%;
+/* height: 10vw;  */
+background-color: lightgray;
+position: relative;
+}
+.insideBox{
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  margin:0px;
+ font-weight: bolder;
+ font-size: 30px;
+ color:gray;  
+}
+.feature{
+    font-family: sans-serif; 
+    font-size: 20px;
+}
+h2{
+    padding-left: 15px;
+}
+.p1{
+    padding-left: 15px;
+}
+.button {
+    background-color:#227dc7; /* Green */
+    border-radius:4px ;
+    border: none;
+    color: white;
+    text-align: center;
+    width: 5vw;
+    height: 2vw;
+    font-size: 10px;
+    /* margin: 4px 2px; */
+   padding-left: 10px;
+    
+  }
+  
+  .button3 {
+      background-color: white;
+      color: grey;
+      border: none;
+      border-color: lightgray;
+      border-style: groove;
+      border-radius: 4px;
+} 
+.parentDiv{
+   margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+  
+  
