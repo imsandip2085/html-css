@@ -1,0 +1,241 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+  list-style-type: none;
+  background-color:#333;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+.navbar{
+    float: left;
+}
+.list{
+    margin-left: 10vw;
+   font-size: large;
+   font-family: sans-serif;
+}
+ .a1{
+  display: block;
+  color: #ccccb3;
+  text-align: center;
+  text-decoration: none;
+  padding: 1.6vw 1.8vw;
+  font-family: sans-serif;
+}
+.mainContainer{
+    margin: 2vw 10vw 0vw 10vw ;
+}
+.container{
+    /* margin: 20px 100px 0 100px; */
+    display: flex;
+    justify-content: space-between;
+}
+.container-1{
+ flex: 1.4;
+}
+.title{
+    font-family: sans-serif;
+    font-size: xx-large;
+}
+.sub-title{
+    font-family: sans-serif; 
+}
+.sub-1-title{
+    font-family: sans-serif;
+    display: center;
+}
+.test{
+    padding-left: 5px;
+    color:#4295f5;
+}
+i{
+    padding-right: 3px;
+}
+.box{
+    background-color: lightgray;
+    width: 55vw;
+    height: 20vw;
+    position: relative;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+.box-item{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    margin: 0px;
+    font-size: 5vw;
+    color: #a8adac;
+}
+.box-items{
+    padding: 0px 10px 0px 2px;
+}
+.p1{
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    color: #575252;
+}
+.p2{
+    font-size: 1vw;
+    font-family: sans-serif;
+    color: #6b6666;
+}
+.container-2{
+flex: .6;
+margin-left: 20px;
+}
+.container-211{
+    /* width: 28vw;
+    height: 10vw; */
+    background-color: #f2f2f2;
+    border-radius: 2px;
+}
+.blogSearch{
+   /* padding-top: 2vw;  
+   padding-left: 1.5vw ; */
+   padding: 1.5vw 1.5vw 2vw 1.5vw;
+}
+.searchBox{
+    display: flex;
+    justify-content: start;
+}
+input{
+    width: 80%;
+    height: 2vw;
+    border-radius: 4px 0 0 4px;
+    /*border: none; */
+    flex: 9;
+    border-top:thin solid #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom:0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px .5px .5px .5px #e5e5e5; 
+}
+.search-buttom{
+   flex: 1; 
+   background-color:white;
+    border-top:thin solid #c5c5c5;
+    /* box-shadow: .5px .5px .5px .5px #e5e5e5; */
+    margin:0px 0 0 0;
+    text-align:center;
+}
+.blogSearchHeading{
+    font-family: sans-serif;
+    font-size: 1.5vw;
+}
+.fa-search{
+    padding: .4vw .4vw;
+    font-size: 1vw;
+}
+.container-212{
+    /* width: 28vw;
+    height: 15vw; */
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    margin: 15px 0px 0px 0px;
+}
+.blog-categories{
+    padding: 1.5vw 1.5vw 2vw 1.5vw;
+}
+.blog-categories-heading{
+    font-family: sans-serif;
+    font-size: 1.5vw;
+}
+.blog-categories-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.blog-categories-list-1{
+  flex: 1 0 50%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  /* align-content: flex-start; */
+}
+
+.blog-categories-list-2{
+    flex: 1 0 50%;
+   list-style-type: none;
+   margin: 0;
+   padding-inline-start: 0px;
+}
+.a2{
+    text-decoration: none;
+    color: #00ace6;
+    font-family: sans-serif;
+    /* font-size: 1.2vw; */
+}
+.container-213{
+    /* width: 28vw;
+    height: 15vw; */
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    margin: 15px 0px 0px 0px;
+}
+.side-widget{
+    padding: 1.5vw 1.5vw 2vw 1.5vw;
+}
+.side-widget-heading{
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    padding: 0;
+}
+.side-widget-item{
+    font-family: sans-serif;
+    font-size: 1.1vw;
+    color: #575252;
+}
+.foot{
+    font-size: 1vw;
+    font-family: sans-serif;
+    color: #6b6666;
+    padding: 2vw 0vw 2vw 0vw;
+}
+@media only screen and (max-width: 768px){
+    .p1{
+        font-size: 4vw;
+        font-family: sans-serif;
+        color: #575252;
+    }
+    .p2{
+        font-size: 3vw;
+        font-family: sans-serif;
+        color: #6b6666;
+    }
+    .fa-search{
+        padding: 0px 0px;
+        font-size: 0px;
+       
+    }
+.side-widget-item{
+    font-family: sans-serif;
+    font-size: 3vw;
+}
+.side-widget-heading{
+    font-family: sans-serif;
+    font-size: 5vw;
+    padding: 0;
+}
+.blog-categories-heading{
+    font-family: sans-serif;
+    font-size: 4vw;
+}
+.a2{
+    text-decoration: none;
+    color: #00ace6;
+    font-family: sans-serif;
+    font-size: 2.5vw;
+}
+.blogSearchHeading{
+    font-family: sans-serif;
+    font-size: 4vw;
+}
+
+}
+
+

@@ -1,0 +1,72 @@
+/* .container{
+     background-color: white;
+    margin: 0 3vw 0 3vw;
+    padding: 0;
+    position: relative;
+    height: 100px; 
+} */
+.mainBox{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50% -50%);  
+}
+.midBox{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    /* transform: translate(-50% -50%); */
+    border: 2px solid #990000;
+    width: 9vw;
+    height: 5.5vw;
+}
+.container-1{
+    /* position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50% -50%); */
+    /* border: 2px solid red;
+    width: 15vw;
+    height: 7vw; */
+    display: flex;
+}
+.container-11{
+    border: 2px solid #ff9980;
+    width: 15vw;
+    height: 7vw;
+}
+.container-12{
+    /* position: absolute;
+    top: 40%;
+     left: 50%; 
+    transform: translate(-50% -50%); */
+    border: 2px solid yellow;
+    width: 15vw;
+    height: 7vw;
+    float: right;
+}
+.container-2{
+    /* position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50% -50%); */
+    /* border: 2px solid red;
+    width: 15vw;
+    height: 7vw; */
+    display: flex;
+}
+.container-21{
+    border: 2px solid  #53c68c;
+    width: 15vw;
+    height: 7vw;
+}
+.container-22{
+    /* position: absolute;
+    top: 40%;
+     left: 50%; 
+    transform: translate(-50% -50%); */
+    border: 2px solid #ff9980;
+    width: 15vw;
+    height: 7vw;
+    float: right;
+}
