@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+         .pagination{
+        
+         }
+        .pagination a {
+          color: black;
+          float: left;
+          padding: 8px 16px;
+          text-decoration: none;
+          transition: background-color .3s;
+          border: 1px solid black;
+           
+        }
+        
+        .pagination a.active {
+          background-color: dodgerblue;
+          color: white;
+        }
+        
+        .pagination a:hover:not(.active) {background-color: #ddd;}
+        </style>
+</head>
+<body>
+    <h1 class="ml-5 mt-3 text-secondary">Person details</h1>
+    <div id="personDetails"></div>
+     <div class="pagination ml-5">
+        <!-- <a href="#">&laquo;</a>  -->
+        <!-- <a href="#" class="active" id="a1" onclick="getText()">1</a>
+        <a href="#" id="a2" onclick="getText()">2</a>
+        <a href="#" id="a3" onclick="getText()">3</a> -->
+        <!-- <a href="#" >&raquo;</a> -->
+     </div>
+    </div> 
+
+    <script src="app.js"></script>
+</body>
+</html>
