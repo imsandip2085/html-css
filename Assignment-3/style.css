@@ -1,0 +1,70 @@
+.container{
+    margin: 2vw 2vw 2vw 2vw;
+    background-color: lightgrey;
+    border-radius: 6px;
+}
+.button{
+    padding-left: 25px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.button1{
+    background-color: #227dc7;
+    color: white;
+    border: none;
+    border-radius: 70px;
+    border-left: 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 1vw 1vw 1vw 1vw;
+    font-size: 1vw;
+    overflow: hidden;
+    perspective: 4px;
+   
+}
+.button2{
+    background-color: #227dc7;
+    color: white;
+    border: none;
+    border-radius: 70px;
+    padding: 1vw 1vw 1vw 1vw;
+	text-align: center;
+	font-size: 1vw;
+	display: inline-block;
+    overflow: hidden;
+    perspective: 4px;
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 600px){
+    .button1{
+        background-color: #227dc7;
+        color: white;
+        border: none;
+        border-radius: 70px;
+        border-left: 10px;
+        text-align: center;
+        display: inline-block;
+        padding: 2vw 2vw 2vw 2vw;
+        font-size: 2.5vw;
+        display:inside-block;
+        overflow: hidden;
+        perspective: 1px;
+       
+    }
+    .button2{
+        background-color: #227dc7;
+        color: white;
+        border: none;
+        border-radius: 70px;
+        padding: 2vw 2vw 2vw 2vw;
+        text-align: center;
+        font-size: 2.5vw;
+        display: inline-block;
+        overflow: hidden;
+        perspective: 1px;
+        margin-left: 20px;
+    }
+}
+
+
