@@ -36,7 +36,8 @@ ul li{
 .logo img{
     width: 200px;
     position: relative; 
-     top: 10px;
+    top: 10px;
+    z-index: 1;
 }
 .star{
     height: 15px;
@@ -46,11 +47,13 @@ ul li{
 .navbar{
  
 }
+
+
 .star1 img{
     height: 30px;
     padding-left: 20px;
     padding-top: 15px;
-    width: 100px;
+    width: 13vw;
 }
 .star2 h4{
     padding: 0px 0px 0px 10px;
@@ -77,21 +80,26 @@ ul li{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
     padding: 16px 10px;
     background-color: white;
-    width: 35%;      
+    width: 38%;      
   }
   .card h2{
     font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 0px 20px 0px 20px;
   }
   .card p{
-    font-family:  sans-serif;
+     font-family:  sans-serif; 
+    font-family: 'Open Sans Condensed', ;
+    justify-content: center;
+   padding: 0px 20px 0px 20px;
   }
 select{
     border: none;
-    background-color:  #039dfc;
-    padding: 5px 5px 5px 5px;
+    background-color:  #03adfc;
+    padding: 8px 12px 8px 12px;
     text-align: center;
     color: white;
    border-radius: 4px;
+   margin: 0px 20px 0px 20px;
    
 }
   .container_img1{
@@ -103,11 +111,13 @@ select{
 .container_img1 img{
     height: 300px;   
 }
- 
+ .body{
+     background-color: #f5f5f0;
+ }
 .container2{
     margin: 0 auto;
     width: 800px;
-   padding: 10px 0px 100px 0px;
+    padding: 10px 0px 100px 0px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -120,6 +130,11 @@ select{
 .container{
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.container p{
+    padding: 0px 20px 0px 20px;
+    font-family: 'Open Sans Condensed', ;
+    font-family: 'Maven Pro', ;
 }
 .card11{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
@@ -186,11 +201,6 @@ select{
     display: flex;
    justify-content: center;
    flex-wrap: wrap;
-   /* margin-top: 50px;
-   display: flex;
-   justify-content:space-between;
-   flex-wrap: wrap;  */
-  
 }
 .card31{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
@@ -231,13 +241,12 @@ select{
     border-bottom: 8px solid #03b1fc;
 }
 .footer{
-    background-color:  #005580;
-    
+    background-color:  #00334d;
+  
 }
-.footerparent{
-    margin: 0 auto;
-    width: 900px;
-    display: block;
+.footerParent{
+    margin:0 auto;
+    width:800px;  
 }
 .container3{
     display: flex;
@@ -246,17 +255,13 @@ select{
 }
 
 .p1{
-    flex: 1;
-    color: white; 
-    font-size: 10px;
+    color: gainsboro; 
+    font-size: 8px;
    
 }
 .p2 {
-    flex: 1;
-    font-size: 10px;
-    font-family: sans-serif;
-    font-weight: lighter;
-    color: white;
+    font-size: 8px;
+    color: gainsboro;
 }  
 @media only screen and (max-width: 780px){
     .navDiv{
@@ -384,6 +389,18 @@ select{
    font-size: 15px;
    padding-left: 10px;
    }
+   .footerParent{
+       width: 100%;
+   }
+   .container3{
+    padding-left: 25px;  
+  }
+  .container3 p{
+   font-family: sans-serif;
+    font-size: 8px;
+    color: gainsboro;
+    padding: 0 10px 0 10px;
+  }
 }
 @media only screen and (max-width: 480px){
     .navDiv{
@@ -426,8 +443,8 @@ select{
        padding-left: 10px;
    }
    .card p{
-       font-size: 15px;
-       padding-left: 10px;
+       font-size: 20px;
+        padding-left: 10px; 
    }
    .container_img1{
     justify-content: center;
@@ -450,8 +467,7 @@ select{
        padding-left: 20px;
    }
    .card11{
-        margin: 0px 0px 0px 0px;
-        /* padding-left: 20px;  */
+       margin: 0px 0px 0px 0px;
        height: 250px;
        width: 250px;
        border-bottom: 20px solid #03b1fc; 
@@ -461,7 +477,6 @@ select{
     padding-left: 10px;
    }
    .card12{
-     /* margin: 50px 0px 50px 0px;  */
     height: 250px;
     width: 250px; 
     border-bottom: 20px solid #03b1fc; 
@@ -474,7 +489,6 @@ select{
    padding-left: 10px;
    }
    .card13{
-     /* margin: 50px 0px 50px 0px;  */
     height: 250px;
     width: 250px; 
     border-bottom: 20px solid #03b1fc; 
@@ -487,6 +501,7 @@ select{
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
+    padding-left: 20px;
    }
    .card31{
     height: 250px;
@@ -502,7 +517,6 @@ select{
    padding-left: 10px;
    }
    .card32{
-    margin: 50px 0px 50px 0px;
     height: 250px; 
     width: 250px;
     border-bottom: 20px solid #03b1fc; 
@@ -514,5 +528,13 @@ select{
   .container p{
    font-size: 15px;
    padding-left: 10px;
+   }
+   .container3{
+     padding-left: 30px;  
+   }
+   .container3 p{
+    font-family: sans-serif;
+     font-size: 10px;
+     color: gainsboro;
    }
 }

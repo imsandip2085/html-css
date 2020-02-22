@@ -1,0 +1,260 @@
+   /* first row start */
+.container-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row11{
+    flex-basis: 33.3%;
+    height: 100px;
+    background-color: #ff0000;
+    position: relative;
+}
+.row12{
+    flex-basis: 33.3%;
+    height: 100px;
+    background-color: #1a75ff;
+    position: relative;
+}
+.row13{
+    flex-basis: 33.3%;
+    height: 100px;
+    background-color: #ff0000;
+    position: relative;
+}
+.row11 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    margin-right: -50%;
+    transform: translate(-50% -50%);
+}.row12 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    margin-right: -50%;
+    transform: translate(-50% -50%);
+}
+.row13 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    margin-right: -50%;
+    transform: translate(-50% -50%);
+}
+ /* Second row start */
+
+ .container-2{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.row21{
+    flex-basis:33.3%;
+    flex: 2;
+    height: 100px;
+    background-color: #ff0000;
+    position: relative;
+}
+.row22{
+    flex-basis:33.3%;
+    flex: 1;
+    height: 100px;
+    background-color: #1a75ff;
+    position: relative;
+}
+.row23{
+    flex-basis:33.3%;
+    flex: 2;
+    height: 100px;
+    background-color: #ff0000;
+    position: relative;
+}
+.row21 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    margin-right: -50%;
+    transform: translate(-50% -50%);
+}.row22 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    margin-right: -50%;
+    transform: translate(-50% -50%);
+}
+.row23 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    margin-right: -50%;
+    transform: translate(-50% -50%);
+} 
+
+ /* third row start */
+
+ .container-3{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.row31{
+    flex-basis: 33.3%;
+    flex: 12;
+    height: 100px;
+    background-color: #ff0000;
+    position: relative;
+}
+.row32{
+    flex-basis: 33.3%;
+    flex: 1;
+    height: 100px;
+    background-color: #1a75ff;
+    position: relative;
+}
+.row33{
+    flex-basis: 33.3%;
+    flex: 12;
+    height: 100px;
+    background-color: #ff0000;
+    position: relative;
+}
+.row31 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    margin-right: -50%;
+    transform: translate(-50% -50%);
+}
+.row33 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    margin-right: -50%;
+    transform: translate(-50% -50%);
+}
+@media only screen and (max-width : 786px){
+    
+    .container-1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .row11{
+        flex-basis: 50%;
+    }
+    .row12{
+        flex-basis: 50%;
+    }
+    .row13{
+        flex-basis: 100%;
+        border: 1px solid white;
+    }
+    .container-2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .row21{
+        flex-basis: 50%;
+    }
+    .row22{
+        flex-basis: 50%;
+    }
+    .row23{
+        flex-basis: 100%;
+        border: 1px solid white;
+    }
+    .container-3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .row31{
+        flex-basis: 50%;
+    }
+    .row32{
+        flex-basis: 50%;
+        position: relative;
+    }
+    .row33{
+        flex-basis: 100%;
+        border: 1px solid white;
+    }
+    .row32 p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: 0;
+        margin-right: -50%;
+        transform: translate(-50% -50%);
+    }
+}
+
+@media only screen and (max-width : 450px){
+    
+    .container-1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .row11{
+        flex-basis: 100%;
+    }
+    .row12{
+        flex-basis: 100%;
+    }
+    .row13{
+        flex-basis: 100%;
+        border: none;
+        border: 1px solid white;
+    }
+    .container-2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .row21{
+        flex-basis: 100%;
+    }
+    .row22{
+        flex-basis: 100%;
+    }
+    .row23{
+        flex-basis: 100%;
+        border: none;
+        border: 1px solid white;
+    }
+    .container-3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .row31{
+        flex-basis: 100%;
+    }
+    .row32{
+        flex-basis: 100%;
+        position: relative;
+    }
+    .row33{
+        flex-basis: 100%;
+        border: none;
+        border: 1px solid white; 
+    }
+    .row32 p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: 0;
+        margin-right: -50%;
+        transform: translate(-50% -50%);  
+    }
+}
