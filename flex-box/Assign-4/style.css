@@ -1,0 +1,132 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid black;
+    border-bottom: 2px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+.row1{
+    background-color: #cc0000;
+    height: 100px;
+    flex-basis: 20%;
+    position: relative;
+    order: 0;
+}  
+.row2{
+    background-color: #b3cccc;
+    height: 100px;
+    position: relative;
+    flex-basis: 20%;
+    order: -2; 
+}
+.row3{
+    background-color: #ff471a;
+    height: 100px;
+    flex-basis: 20%;
+   position: relative;
+   order: -4;
+}
+.row4{
+    background-color:#e0ebeb;
+    height: 100px;
+    flex-basis: 20%;
+    position: relative;
+    order: -1;
+}
+.row5{
+    background-color:#ff9900;
+    height: 100px;
+    flex-basis: 20%;
+    position: relative;
+    order: -3;
+}
+.row1 p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  margin-right: -50%;
+  transform: translate(-50% -50%);
+}
+.row2 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    margin-right: -50%;
+    transform: translate(-50% -50%);
+}
+.row3 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    margin-right: -50%;
+    transform: translate(-50% -50%);
+}
+.row4 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    margin-right: -50%;
+    transform: translate(-50% -50%);
+}
+.row5 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    margin-right: -50%;
+    transform: translate(-50% -50%);
+}
+  
+@media only screen and (max-width: 786px){
+   .container{
+       flex-wrap: wrap;
+       display: flex;
+       justify-content: center;
+   } 
+   .row1{
+       flex-basis:100%;
+    }   
+    .row2{
+       flex-basis:50%;
+    }   
+    .row3{
+       flex-basis:50%;
+    }   
+    .row4{
+      flex-basis:50%;
+    }   
+    .row5{
+        flex-basis:50%;
+       
+    }   
+   
+}
+@media only screen and (max-width: 425px){
+    .container{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    } 
+    .row1{
+        flex-basis:100%;
+     }   
+     .row2{
+        flex-basis:100%;
+     }   
+     .row3{
+        flex-basis:100%;
+     }   
+     .row4{
+       flex-basis:100%;
+     }   
+     .row5{
+         flex-basis:100%;
+        
+     }   
+    
+ }
