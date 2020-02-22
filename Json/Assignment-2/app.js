@@ -80,7 +80,7 @@ var Person = [
     Dob: "14-04-1993"
   }
 ];
-
+return Person; 
 if (Person.length % 5 == 0) {
   var pagination_length = Person.length / 5;
 } else {

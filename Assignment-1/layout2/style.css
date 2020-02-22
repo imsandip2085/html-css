@@ -157,7 +157,7 @@ span{
     font-size: 12px;
     /* padding: 1vw 1vw 1vw 1vw; */
     width: 6vw;
-    height: 2vw;
+    height: 2vw; /* padding: 16px 0px;
     display: inline-block;
     overflow: hidden;
     perspective: 4px; 
